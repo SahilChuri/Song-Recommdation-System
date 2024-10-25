@@ -30,8 +30,8 @@ song_cluster_pipeline.fit(X)
 data['cluster_label'] = song_cluster_pipeline.predict(X)
 
 # --- Spotify credentials ---
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='086ce9273ec149168816ac82214269e1',
-                                                           client_secret='6ffa5cc37b944f63a28b820b5f7044ef'))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id='6a4c8b639fa94c46b1d2ec3dd7329ac0',
+                                                           client_secret='14abf5c6f4aa4038a6cc186bad425ecb'))
 
 
 # --- Helper functions ---
